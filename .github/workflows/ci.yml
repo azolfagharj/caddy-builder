@@ -16,7 +16,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"
           ${{ steps.build.outputs.caddy-path }} version
@@ -33,7 +33,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           modules: |
             github.com/caddy-dns/cloudflare
             github.com/caddyserver/ntlm-transport@v0.1.1
@@ -51,7 +51,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           output-dir: ./dist
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"
@@ -67,7 +67,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           embeds: embeddir
       - run: test -f "${{ steps.build.outputs.caddy-path }}"
 
@@ -97,7 +97,7 @@ jobs:
         with:
           goos: windows
           goarch: amd64
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           modules: github.com/caddy-dns/cloudflare
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"
@@ -116,7 +116,7 @@ jobs:
         with:
           goos: darwin
           goarch: arm64
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           modules: github.com/caddy-dns/cloudflare
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"
@@ -133,7 +133,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           modules: github.com/caddy-dns/cloudflare
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"
@@ -150,7 +150,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           modules: github.com/caddy-dns/cloudflare
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"
@@ -166,7 +166,7 @@ jobs:
       - uses: ./
         id: build
         with:
-          caddy-version: v2.8.4
+          caddy-version: v2.10.2
           modules: github.com/caddy-dns/cloudflare
       - run: |
           test -f "${{ steps.build.outputs.caddy-path }}"

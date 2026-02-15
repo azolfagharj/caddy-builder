@@ -127,6 +127,7 @@ Build for a different OS/arch from any runner:
 | `replaces` | string | `""` | Replace directives for xcaddy `--replace`. Comma or newline separated |
 | `embeds` | string | `""` | Paths for xcaddy `--embed`. Use `alias:path` for aliased embeds |
 | `output-dir` | string | `"."` | Output directory for the built binary |
+| `go-version` | string | `"1.22"` | Go version. Use `1.22` for Caddy v2.8.x (avoids zap/slog compatibility issues) |
 | `goos` | string | `""` | Target OS: `linux`, `windows`, `darwin`. Empty = runner's OS |
 | `goarch` | string | `""` | Target arch: `amd64`, `arm64`, `arm`. Empty = runner's arch |
 

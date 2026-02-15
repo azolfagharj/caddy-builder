@@ -28,6 +28,10 @@ inputs:
     description: 'Output directory for the built binary'
     required: false
     default: '.'
+  go-version:
+    description: 'Go version for xcaddy (e.g. 1.22, 1.23). Use 1.22 if building Caddy v2.8.x'
+    required: false
+    default: '1.22'
   goos:
     description: 'Target OS (linux, windows, darwin). Empty = use runner OS'
     required: false
@@ -57,7 +61,7 @@ runs:
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
-        go-version: '1.23'
+        go-version: ${{ inputs.go-version }}
 
     - name: Install xcaddy
       id: xcaddy
