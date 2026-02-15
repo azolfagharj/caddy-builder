@@ -264,7 +264,7 @@ jobs:
             gh release create "$NEW_TAG" \
               --target "${{ github.sha }}" \
               --generate-notes \
-              --previous-tag "$PREV_TAG"
+              --notes-start-tag "$PREV_TAG"
           else
             gh release create "$NEW_TAG" \
               --target "${{ github.sha }}" \

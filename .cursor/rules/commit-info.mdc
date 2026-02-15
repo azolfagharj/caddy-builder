@@ -1,0 +1,24 @@
+---
+description: When user asks for "اطلاعات کامیت", provide copyable commit title and description
+alwaysApply: true
+---
+
+# Commit Info Rule
+
+When the user says **"اطلاعات کامیت"** (or equivalent like "commit info", "commit message"):
+
+1. **Output** in plain text, easy to copy
+2. **Title**: Short, in English, simple words (e.g. `feat: add X`)
+3. **Description**: Bullet list of changes, in English, simple words
+4. **Scope**: Include all changes since the last time they asked for commit info, or since the start of the conversation
+5. **Format**:
+
+```
+## Summary
+<one-line title>
+
+## Description
+<bullet list of changes>
+```
+
+6. Base the content on: edited files, added/deleted files, and discussed/implemented features in this session
