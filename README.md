@@ -1,8 +1,8 @@
-# Custom [Caddy](https://github.com/caddyserver/caddy) Builder - prebuilt GitHub Action for building custom Caddy binaries with modules, versions, and any OS/arch
+# Custom Caddy Builder <small>(Prebuilt GitHub Action)</small>
 
 [![CI](https://github.com/azolfagharj/action-caddy-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/azolfagharj/action-caddy-builder/actions) [![Donate](https://img.shields.io/badge/Donate-to%20Keep%20This%20Project%20Alive-orange)](https://donate.azolfagharj.ir/)
 
-Build custom Caddy binaries with [xcaddy](https://github.com/caddyserver/xcaddy) in GitHub Actions. Supports all OS/arch, custom modules, and integrates with your pipeline.
+Build custom [Caddy](https://github.com/caddyserver/caddy) binaries with [xcaddy](https://github.com/caddyserver/xcaddy) in GitHub Actions. Supports all OS/arch, custom modules, and integrates with your pipeline.
 
 ---
 

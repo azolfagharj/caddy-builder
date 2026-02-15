@@ -298,5 +298,6 @@ jobs:
         run: |
           NEW_TAG="${{ steps.version.outputs.new_tag }}"
           gh release create "$NEW_TAG" \
+            --title "$NEW_TAG" \
             --target "${{ github.sha }}" \
             --notes-file release_notes.md
