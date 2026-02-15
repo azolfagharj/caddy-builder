@@ -1,6 +1,6 @@
 # Custom Caddy Builder <small>(Prebuilt GitHub Action)</small>
 
-[![CI](https://github.com/azolfagharj/action-caddy-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/azolfagharj/action-caddy-builder/actions) [![Donate](https://img.shields.io/badge/Donate-to%20Keep%20This%20Project%20Alive-orange)](https://donate.azolfagharj.ir/)
+[![CI](https://github.com/azolfagharj/action-caddy-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/azolfagharj/action-caddy-builder/actions) [![Marketplace](https://img.shields.io/badge/Marketplace-Caddy%20Builder-blue?logo=github)](https://github.com/marketplace/actions/caddy-builder) [![Donate](https://img.shields.io/badge/Donate-to%20Keep%20This%20Project%20Alive-orange)](https://donate.azolfagharj.ir/)
 
 Build custom [Caddy](https://github.com/caddyserver/caddy) binaries with [xcaddy](https://github.com/caddyserver/xcaddy) in GitHub Actions. Supports all OS/arch, custom modules, and integrates with your pipeline.
 
@@ -22,6 +22,7 @@ Build custom [Caddy](https://github.com/caddyserver/caddy) binaries with [xcaddy
 - [Troubleshooting](#troubleshooting)
 - [Attribution](#attribution)
 - [License](#license)
+- [Contributing](#contributing)
 
 ---
 
@@ -47,7 +48,7 @@ No Go or xcaddy setup required—the action installs everything.
 
 ## Installation
 
-Add the action to your workflow:
+Available on [GitHub Marketplace](https://github.com/marketplace/actions/caddy-builder). Add the action to your workflow:
 
 ```yaml
 - uses: azolfagharj/action-caddy-builder@v1
@@ -335,3 +336,11 @@ This action uses the following projects. We credit them here in accordance with 
 ## License
 
 MIT - see [LICENSE](LICENSE).
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues.
+
+[![Donate](https://img.shields.io/badge/Donate-Support%20this%20project-orange)](https://donate.azolfagharj.ir/)

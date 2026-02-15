@@ -1,6 +1,6 @@
 name: Caddy Builder
 version: "1.0.0"
-description: Build custom Caddy binaries with xcaddy on GitHub Actions - supports all OSes and architectures
+description: Build custom Caddy binaries with xcaddy on GitHub Actions - supports all OSes and architectures. Available on GitHub Marketplace - https://github.com/marketplace/actions/caddy-builder
 author: Alireza zolfaghar
 
 branding:
