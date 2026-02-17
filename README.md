@@ -1,6 +1,6 @@
 # Custom Caddy Builder <small>(Prebuilt GitHub Action)</small>
 
-[![CI](https://github.com/azolfagharj/action-caddy-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/azolfagharj/action-caddy-builder/actions) [![Marketplace](https://img.shields.io/badge/Marketplace-Caddy%20Builder-blue?logo=github)](https://github.com/marketplace/actions/caddy-builder) [![Donate](https://img.shields.io/badge/Donate-to%20Keep%20This%20Project%20Alive-orange)](https://donate.azolfagharj.ir/)
+[![CI](https://github.com/azolfagharj/action-caddy-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/azolfagharj/action-caddy-builder/actions) [![Marketplace](https://img.shields.io/badge/Marketplace-Caddy%20Builder-blue?logo=github)](https://github.com/marketplace/actions/caddy-builder) [![Donate](https://img.shields.io/badge/Donate-to%20Keep%20This%20Project%20Alive-orange)](https://azolfagharj.github.io/donate/)
 
 Build custom [Caddy](https://github.com/caddyserver/caddy) binaries with [xcaddy](https://github.com/caddyserver/xcaddy) in GitHub Actions. Supports all OS/arch, custom modules, and integrates with your pipeline.
 
@@ -343,4 +343,4 @@ MIT - see [LICENSE](LICENSE).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues.
 
-[![Donate](https://img.shields.io/badge/Donate-Support%20this%20project-orange)](https://donate.azolfagharj.ir/)
+[![Donate](https://img.shields.io/badge/Donate-Support%20this%20project-orange)](https://azolfagharj.github.io/donate/)
